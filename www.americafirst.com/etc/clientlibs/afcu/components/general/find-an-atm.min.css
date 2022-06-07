@@ -1,0 +1,17 @@
+.find-an-atm{font-size:1rem}
+.find-an-atm ul.nav-tabs{margin-bottom:15px}
+.find-an-atm .nav-tabs a{color:#337aa8}
+.find-an-atm [class^="icon-"]{font-size:2rem}
+.find-an-atm .faq-section .panel,.find-an-atm .faq-section .panel-body{border:0}
+.find-an-atm .faq-section .panel-heading{background-color:#fff;color:#545454}
+.find-an-atm .faq-section .panel-title{margin:5px 0;font-size:.875rem}
+.find-an-atm .faq-section a.accordion-toggle{text-decoration:none;color:#000}
+.find-an-atm .faq-section a:hover,.find-an-atm .faq-section a:focus{color:#4b8ab2}
+.find-an-atm .faq-section .panel-heading .accordion-toggle:after{font-family:'afcu-icons';content:"\e606";float:right;color:gray}
+.find-an-atm .faq-section .panel-heading .accordion-toggle.collapsed:after{content:"\e602"}
+.find-an-atm legend{border:0;padding:0;margin:0;font-size:1rem}
+.find-an-atm .form-control{font-size:.875rem;height:calc(2.125rem)}
+.find-an-atm .form-check-label{font-weight:normal}
+.find-an-atm .col-md-6{padding:0}
+.find-an-atm .address-input{margin:0 -15px 0 -9px}
+.find-an-atm #btnAtmNearby.button-disable{opacity:.65;color:#fff;background-color:#00548e;border-color:#00548e;cursor:not-allowed}

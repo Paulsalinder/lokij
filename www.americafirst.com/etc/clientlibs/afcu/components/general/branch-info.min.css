@@ -1,0 +1,39 @@
+.branch-info-container .branch-name{display:block;padding:10px}
+.branch-info-container .branch-container{padding-bottom:40px}
+.branch-info-container .branch-nearby-container .row{position:static}
+.branch-info-container .branch-nearby-container .row .col-12{border-right:1px solid #cdcdcd;margin-top:30px}
+.branch-info-container .nearby-branch-title-center{text-align:center}
+.branch-info-container .branch-image .image{margin-bottom:20px}
+.branch-info-container img{width:100%;object-fit:fill;height:100%}
+.branch-info-container .map-canvas{width:100%;position:relative;overflow:hidden}
+.branch-info-container .card-title{font-size:.875rem}
+.branch-info-container #afcu-branch-services-accordion{padding:0}
+.branch-info-container #afcu-branch-atm-accordion{padding:0}
+.branch-info-container #afcu-branch-atm-accordion ol{padding-left:15px}
+.branch-info-container .card-header{padding-left:0;padding-bottom:0}
+.branch-info-container .nearby-branch-text{text-align:center}
+.branch-info-container .nearby-branch-title{width:100%}
+.branch-info-container .nearby-branch-address{padding:10px;display:block;min-height:65px}
+.branch-info-container .nearby-branch-button-center{justify-content:center}
+.branch-info-container .nearby-branch-button{display:flex}
+.branch-info-container .nearby-branch-button{margin-top:0 !important}
+.branch-info-container .branch-address-section .branch-address,.branch-info-container .branch-address-section .branch-hours{padding-bottom:10px}
+.branch-info-container .branch-address-section .row .col-12{padding:0;margin-top:0;margin-bottom:0}
+.branch-info-container .branch-address-section .card{box-shadow:0}
+.branch-info-container .branch-service-text{padding-bottom:10px}
+.branch-info-container .branch-map{position:relative}
+.branch-info-container a.skip-map{position:absolute;clip:rect(1px,1px,1px,1px);overflow:hidden;width:1px;height:1px;top:0;left:0}
+.branch-info-container #content-after-map{position:absolute;clip:rect(1px,1px,1px,1px);overflow:hidden;width:1px;height:1px;bottom:0;left:0}
+.branch-info-container .badge{font-size:.75rem}
+.branch-info-container .accordion-toggle{color:#000}
+.branch-info-container .accordion-toggle:hover{text-decoration:none;color:#337aa8}
+@media(min-width:768px) and (max-width:1023px){.branch-info .row .col-12:nth-child(2n){border-right:0}
+}
+@media(min-width:320px) and (max-width:480px){.branch-info .branch-nearby-container .row .col-12{border-right:0}
+.branch-info-container .branch-map{padding:0}
+}
+@media(min-width:1024px){.branch-info .branch-nearby-container .row .col-12:nth-child(3n){border-right:0}
+}
+@media(max-width:768px){.branch-info .branch-info-container .branch-address-section{padding-top:25px}
+.branch-info .branch-info-container .branch-container{flex-direction:column-reverse}
+}
